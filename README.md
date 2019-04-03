@@ -19,4 +19,4 @@ For this course we will do our computing and data analysis in the cloud using cl
 
 If all goes well, then the model should run and end with `FORTRAN STOP: finished simulation successfully`
 
-This is not how we will generally interact with the model. Instead we will be using a python package called `pysumma` to interact with the model simulations.
+This is not how we will generally interact with the model, but it is a quick check to make sure everyone can run the model. Instead we will be using a python package called `pysumma` to interact with the model simulations.
