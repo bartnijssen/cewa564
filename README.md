@@ -12,11 +12,13 @@ For this course we will do our computing and data analysis in the cloud using cl
 4. Clone this repository with `git clone https://github.com/bartnijssen/cewa564.git`
 5. Install the SUMMA setup so we can run the model by issuing the following commands:
   * `cd cewa564/summa_setup`
-  * `./install_local_setup.sh`
   * `mkdir output`
+  * `./install_local_setup.sh`
 6. Now run the model by issuing the following command:
   * `summa.exe -m ./file_manager.txt`
 
 If all goes well, then the model should run and end with `FORTRAN STOP: finished simulation successfully`
+
+Output from the model is stored in the `output` directory (`~/cewa564/summa_setup/output`).
 
 This is not how we will generally interact with the model, but it is a quick check to make sure everyone can run the model. Instead we will be using a python package called `pysumma` to interact with the model simulations.
