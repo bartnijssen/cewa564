@@ -105,6 +105,7 @@ venv.bak/
 
 # SUMMA output
 output/
+gmon.out
 
 # junk
 junk/
