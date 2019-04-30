@@ -105,3 +105,6 @@ venv.bak/
 
 # SUMMA output
 output/
+
+# junk
+junk/
